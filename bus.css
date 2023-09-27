@@ -1,0 +1,275 @@
+img{
+    width: 100%;
+    height: 70vh;
+}
+:root{
+    --place_color = color: rgb(4, 6, 95);
+    --place_font = 1.5em;
+    --place_center = center;
+    --bg = rgb(147, 156, 240);
+}
+.tittle{
+    text-align: center;
+    color:rgb(9, 32, 245);
+    font-size: 2em;
+    padding-top: 1.5em;
+}
+body{
+    background: rgb(216, 220, 238);
+    font-size:10px ;
+}
+
+#dinamic{
+    background: rgb(253, 221, 221);
+}
+
+.culucate{
+    margin-top: 11em;
+    background: var(--bg);
+    height: 36vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.culucate h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.culucate input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+.culucate button{
+    margin-left: 5em;
+    height: 5vh;
+}
+
+.cul{
+    background:var(--bg);
+    padding-top: 3em;
+}
+
+#textt::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.spare{
+    margin-top: 11em;
+    background:var(--bg);
+    height: vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.spare h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.spare1{
+    background: var(--bg);
+    padding-top: 3em;
+}
+
+.spare input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+
+.spare button{
+    margin-left: 5em;
+    height: 20vh;
+}
+
+#run_speed::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+#more_have::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.create{
+    margin-top: 9em;
+    text-align: center;
+    background: red;
+    font-size: 1.9em;
+}
+
+.create01{
+    margin-top: 9em;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 3em;
+    color:rgb(20, 9, 185);
+    padding-bottom: 0.6em;
+}
+
+.trip{
+    margin-top: 11em;
+    background:var(--bg);
+    height: vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.trip h1{
+    padding-top: 2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.trip01{
+    background:var(--bg) ;
+    padding-top: 7em;
+    margin-left: 50em;
+}
+.trip li{
+    font-size: 2.2em;
+}
+
+.trip button{
+    margin-left: 02em;
+    height: 6vh;
+    margin-top: 1em;
+}
+
+#cclick::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.coustmer{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 44vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.cous1{
+    background:var(--bg) ;
+    padding-top: 7em;
+    margin-left: 5em;
+}
+
+#cos::placeholder{
+    color: var(--place_color);
+    font-size: var(--place_font);
+    text-align: center;
+}
+
+.coustmer button{
+    margin-left: 02em;
+    height: 6vh;
+    margin-top: 1em;
+}
+
+.coustmer input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+
+.coustmer h2{
+    font-size: 2.2em;
+    margin-left: 5em;
+}
+
+.coustmer h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+}
+
+#pay{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 44vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+}
+
+.pay{
+    background:var(--bg) ;
+    padding-top: 7em;
+    margin-left: 5em;
+}
+.pay input{
+    margin-left: 7em;
+    width: 70%;
+    height: 5vh;
+}
+
+.pay button{
+    margin-left: 02em;
+    height: 6vh;
+}
+
+.pay h1{
+    padding-top: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+.pay h2{
+    padding-top: 0.2em;
+    text-align: center;
+    font-size: 2.5em;
+    color: rgb(20, 9, 185);
+    padding-bottom: 1em;
+}
+
+footer{
+    margin-top: 11em;
+    background:var(--bg);
+    height: 52vh;
+    box-shadow: 0.1em 0.1em 6em  ;
+   
+}
+
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right{
+    width: 50%;
+        background:var(--bg) ;
+        padding-top: 7em;
+}
+.right .i{
+    margin-right: 7em;
+    display: flex;
+    margin-left: ;
+}
+.right .i2,.con2{
+   padding-left: 2em;
+}
+
+.container .right{
+        background:var(--bg) ;
+        padding-top: 7em;
+        margin-left: 5em;
+}
+
+.container .left{
+    width: 50%;
+        background:var(--bg) ;
+        padding-top: 7em;
+        background: url("kavi.jpg");
+        height: 40vh;
+}
